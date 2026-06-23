@@ -53,8 +53,6 @@ The app expects the following Supabase (PostgreSQL) tables:
 - **bookings** — `id`, `user_id`, `court_id`, `booking_date`, `start_time`, `end_time`, `duration_hours`, `base_price`, `addons_total`, `total_amount`, `status`, `booked_at`
 - **booking_addons** — join table linking `booking_id` ↔ `addon_id`
 
-> ⚠️ **Security note:** This project stores and compares passwords as plain text and authenticates against the `users` table directly. This is fine for a learning/demo project, but do **not** use this approach in production. Use Supabase Auth and hashed passwords instead.
-
 ## Getting Started
 
 ### Prerequisites
