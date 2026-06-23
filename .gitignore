@@ -1,0 +1,69 @@
+# ===== Secrets (NEVER commit) =====
+.env
+.env.*
+*.env
+backend/.env
+eventsphere/.env
+
+# ===== Required excludes =====
+build/
+.dart_tool/
+.idea/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+*.md
+
+# ===== Flutter / Dart =====
+.packages
+.pub-cache/
+.pub/
+pubspec.lock
+**/doc/api/
+.flutter-plugins
+.flutter-plugins-dependencies
+flutter_*.png
+linked_*.ds
+unlinked.ds
+unlinked_spec.ds
+
+# ===== Android =====
+**/android/local.properties
+**/android/.gradle/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/key.properties
+**/android/**/GeneratedPluginRegistrant.java
+*.jks
+*.keystore
+
+# ===== iOS / macOS =====
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/macos/Pods/
+**/Flutter/ephemeral/
+**/xcuserdata/
+*.GoogleService-Info.plist
+GoogleService-Info.plist
+google-services.json
+
+# ===== IDE / Editor =====
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Misc build/output =====
+**/build/
+*.lock
+*.log
